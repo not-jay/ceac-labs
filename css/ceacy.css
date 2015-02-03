@@ -1,0 +1,63 @@
+* {
+	font-family: "Trebuchet MS";
+}
+
+/* overrides bootstrap */
+.container-fluid {
+	padding: 0px !important;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h1, h3 {
+	text-shadow: 1px 0px 25px #262626;
+}
+
+h5 {
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+ul {
+	margin-bottom: 0px;
+}
+
+.list-inline > li {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.nav {
+	background-color: #333;
+	background-image: none;
+	background-repeat: no-repeat;
+	border: 0px;
+	border-radius: 0px;
+	border-color: transparent;
+	box-shadow: none;
+	margin-bottom: 0px;
+
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+
+html, body,
+.full-screen {
+	height: 100%;
+	color: #efefef;
+}
+
+div#home {
+	height: 100%;
+	background-image: url("../img/home.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
