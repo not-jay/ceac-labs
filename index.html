@@ -12,6 +12,7 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/TweenMax.min.js"></script>
+<script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
 <script type="text/javascript" src="js/jquery.scrollmagic.min.js"></script>
 <script type="text/javascript" src="js/jquery.scrollmagic.debug.js"></script>
 <script type="text/javascript">
@@ -19,6 +20,25 @@
 
 	$(document).ready(function() {
 		controller = new ScrollMagic();
+
+		controller.scrollTo(function(newpos) {
+			TweenMax.to(window, 0.5, {scrollTo: {y: newpos+1}});
+		});
+
+		controller.scrollTo(1);
+
+		$(document).on("click", "a[href^=#]", function(e) {
+			var id = $(this).attr("href");
+			if($(id).length > 0) {
+				e.preventDefault();
+
+				controller.scrollTo(id);
+
+				if(window.history && window.history.pushState) {
+					history.pushState("", document.title, id);
+				}
+			}
+		});
 	});
 </script>
 </html>
