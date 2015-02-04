@@ -51,7 +51,20 @@
 	var controller;
 
 	$(document).ready(function() {
-		controller = new ScrollMagic();
+		controller = new ScrollMagic({
+			globalSceneOptions: {
+				triggerHook: 0,
+				reverse: true
+			}
+		});
+
+		var navigation = new ScrollScene({
+			triggerElement: "#navigation"
+		}).setPin("#navigation");
+
+		controller.addScene([
+			navigation
+		]);
 
 		controller.scrollTo(function(newpos) {
 			TweenMax.to(window, 0.5, {scrollTo: {y: newpos+1}});
