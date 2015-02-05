@@ -61,3 +61,7 @@ div#home {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+.active {
+	border-top: 5px solid #efefef;
+}
