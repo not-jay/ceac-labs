@@ -62,6 +62,10 @@ div#home {
 	background-size: cover;
 }
 
+div#staff {
+	height: 100.5%;
+}
+
 .active {
 	border-top: 5px solid #efefef;
 }
