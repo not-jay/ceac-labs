@@ -63,8 +63,38 @@
 			pushFollowers: false
 		}).setPin("#navigation");
 
+		var home = new ScrollScene({
+			triggerElement: "#home",
+			duration: $("#home").height()
+		}).setClassToggle("#home_link", "active");
+
+		var about = new ScrollScene({
+			triggerElement: "#about",
+			duration: $("#about").height()
+		}).setClassToggle("#about_link", "active");
+
+		var history = new ScrollScene({
+			triggerElement: "#history",
+			duration: $("#history").height()
+		}).setClassToggle("#history_link", "active");
+
+		var services = new ScrollScene({
+			triggerElement: "#services",
+			duration: $("#services").height()
+		}).setClassToggle("#services_link", "active");
+
+		var staff = new ScrollScene({
+			triggerElement: "#staff",
+			duration: $("#staff").height()
+		}).setClassToggle("#staff_link", "active");
+
 		controller.addScene([
-			navigation
+			navigation,
+			home,
+			about,
+			history,
+			services,
+			staff
 		]);
 
 		controller.scrollTo(function(newpos) {
