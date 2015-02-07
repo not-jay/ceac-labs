@@ -68,10 +68,9 @@ div#home {
 	background-size: cover;
 }
 
-div#history {
-	height: 100.5%;
-}
-
+div#about,
+div#history,
+div#services,
 div#staff {
 	height: 100.5%;
 }
