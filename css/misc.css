@@ -1,9 +1,10 @@
 /*
- * misc.css v1
+ * misc.css v2
  *
  * Features:
  *  - vertical div positioning
- *  - center-text helper class;
+ *  - center-text helper class
+ *	- squeeze
  */
 
 .center-outer {
@@ -26,4 +27,10 @@
 
 .center-text {
 	text-align: center;
+}
+
+.squeeze {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
 }
