@@ -24,7 +24,7 @@ ul {
 	margin-bottom: 0px;
 }
 
-.list-inline > li {
+div#navigation > .list-inline > li {
 	padding-left: 15px;
 	padding-right: 15px;
 	border: 5px solid #333;
