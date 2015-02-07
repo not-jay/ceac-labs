@@ -50,6 +50,10 @@ blockquote {
 	margin: 0px;
 }
 
+blockquote footer {
+	color: #ccc;
+}
+
 html, body,
 .full-screen {
 	height: 100%;
@@ -66,6 +70,22 @@ div#home {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+div#about {
+	background-color: #006064;
+}
+
+div#history {
+	background-color: #009688;
+}
+
+div#services {
+	background-color: #558b2f;
+}
+
+div#staff {
+	background-color: #4caf50;
 }
 
 div#about,
