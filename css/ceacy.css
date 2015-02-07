@@ -68,6 +68,10 @@ div#staff {
 	height: 100.5%;
 }
 
+div.spacer {
+	min-height: 10%;
+}
+
 .active {
 	border-top: 5px solid #efefef !important;
 }
