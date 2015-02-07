@@ -27,7 +27,7 @@ ul {
 .list-inline > li {
 	padding-left: 15px;
 	padding-right: 15px;
-	border-top: 5px solid #333;
+	border: 5px solid #333;
 }
 
 .nav {
@@ -39,6 +39,7 @@ ul {
 	border-color: transparent;
 	box-shadow: none;
 	margin-bottom: 0px;
+	padding: 14px;
 
 	position: absolute;
 	width: 100%;
@@ -52,7 +53,7 @@ html, body,
 }
 
 div#home {
-	height: 90.5%;
+	height: 91%;
 	background-image: url("../img/home.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
