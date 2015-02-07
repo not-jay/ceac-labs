@@ -46,6 +46,10 @@ ul {
 	bottom: 0px;
 }
 
+blockquote {
+	margin: 0px;
+}
+
 html, body,
 .full-screen {
 	height: 100%;
@@ -62,6 +66,10 @@ div#home {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+div#history {
+	height: 100.5%;
 }
 
 div#staff {
