@@ -27,6 +27,7 @@ ul {
 .list-inline > li {
 	padding-left: 15px;
 	padding-right: 15px;
+	border-top: 5px solid #333;
 }
 
 .nav {
@@ -67,5 +68,5 @@ div#staff {
 }
 
 .active {
-	border-top: 5px solid #efefef;
+	border-top: 5px solid #efefef !important;
 }
