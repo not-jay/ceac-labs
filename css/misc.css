@@ -32,3 +32,8 @@
 .squeeze {
 	width: 75%;
 }
+
+.squeeze-pad {
+	padding-left: 5%;
+	padding-right: 5%;
+}
