@@ -83,3 +83,31 @@ div.spacer {
 .active {
 	border-top: 5px solid #efefef !important;
 }
+
+.blue-border {
+	border-color: #1a237e;
+}
+
+.green-border {
+	border-color: #43a047;
+}
+
+.yellow-border {
+	border-color: #ffeb3b;
+}
+
+.brown-border {
+	border-color: #3e2723;
+}
+
+.pink-border {
+	border-color: #e91e63;
+}
+
+.max-pad-left {
+	margin-left: 25%;
+}
+
+.max-pad-right {
+	margin-right: 31%;
+}
