@@ -142,7 +142,18 @@
 <script type="text/javascript">
 	var controller;
 
+	function rand_bg() {
+		var rand_img = "img/home/" + Math.floor((Math.random() * 7) + 1) + ".jpg";
+		$("#home").css({
+			"background-image": "url("+rand_img+")"
+		});
+		console.log("Changing bg to "+rand_img);
+	}
+
 	$(document).ready(function() {
+		/* Change backround randomly */
+		rand_bg();
+
 		controller = new ScrollMagic({
 			globalSceneOptions: {
 				triggerHook: 0,
