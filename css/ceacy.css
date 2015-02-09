@@ -122,6 +122,10 @@ div.spacer {
 	min-height: 10%;
 }
 
+div.half-spacer {
+	min-height: 5%;
+}
+
 .active {
 	border-top: 5px solid #efefef !important;
 }
