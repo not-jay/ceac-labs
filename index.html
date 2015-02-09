@@ -205,19 +205,6 @@
 		});
 
 		controller.scrollTo(1);
-
-		$(document).on("click", "a[href^=#]", function(e) {
-			var id = $(this).attr("href");
-			if($(id).length > 0) {
-				e.preventDefault();
-
-				controller.scrollTo(id);
-
-				if(window.history && window.history.pushState) {
-					history.pushState("", document.title, id);
-				}
-			}
-		});
 	});
 </script>
 </html>
