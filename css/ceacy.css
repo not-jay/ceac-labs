@@ -24,6 +24,29 @@ ul {
 	margin-bottom: 0px;
 }
 
+div#staff img {
+    opacity: 0.8;
+    margin-top: 10px;
+    margin-left: 20x;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+div#staff img:hover {
+    opacity: 1;
+    /*i think nindut tanawn ni kung mag div haha
+    height: 122px;
+    width: 122px;*/
+}
+
+td {
+    text-align:center; 
+    vertical-align:middle;
+}
+
 div#navigation > .list-inline > li {
 	padding-left: 15px;
 	padding-right: 15px;
